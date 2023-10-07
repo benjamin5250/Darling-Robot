@@ -9,7 +9,6 @@ from pyrate_limiter import (
     Duration,
     Rate,
     Limiter,
-    MemoryListBucket,
 )
 
 if ALLOW_EXCL:
