@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-DARLING_IMG = "https://telegra.ph/file/55352a84ee76e1f6b6e73.jpg"
+DARLING_IMG = "https://te.legra.ph/file/5e3c7aef33003ba82d358.jpg"
 
 DONATE_STRING = """Thanks But I don't want any Donations. Just Please Support Us That's all, Thank you."""
 
@@ -206,15 +206,15 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/Foundingtitanbot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/Purple_Planet_Manager_Bot?startgroup=new"),
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
-                            InlineKeyboardButton(text=gs(chat.id, "owner_button"), url="t.me/xD_Zent"),
+                            InlineKeyboardButton(text=gs(chat.id, "owner_button"), url="t.me/clauderis"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "network_button"), url="t.me/Sovereign_Network"),
-                            InlineKeyboardButton(text=gs(chat.id, "ot_button"), url="t.me/AckermanXClan"),
+                            InlineKeyboardButton(text=gs(chat.id, "network_button"), url="t.me/purpleplaneteers"),
+                            InlineKeyboardButton(text=gs(chat.id, "ot_button"), url="t.me/purpleplaneteer"),
                         ],
                         [
                             InlineKeyboardButton(
@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
                 disable_web_page_preview=False,
             )
     else:
-        DARLINGSTART = "https://telegra.ph/file/abba1e3a7e38fbf096f00.jpg"
+        DARLINGSTART = "https://te.legra.ph/file/5e3c7aef33003ba82d358.jpg"
         first_name = update.effective_user.first_name
         update.effective_message.reply_photo(
            DARLINGSTART, caption= "<b> Hᴏɪ {} \nɪ'ᴍ ᴀʟɪᴠᴇ sɪɴᴄᴇ</b>: <code>{}</code>".format(
@@ -239,15 +239,15 @@ def start(update: Update, context: CallbackContext):
                     [[
                         InlineKeyboardButton(
                             text="• ᴏᴡɴᴇʀ •",
-                            url="t.me/xD_Zent")
+                            url="t.me/clauderis")
                     ],
                     [
                         InlineKeyboardButton(
                             text="• sᴜᴘᴘᴏʀᴛ •",
-                            url="https://t.me/AckermanXClan"),
+                            url="https://t.me/purpleplaneteers"),
                         InlineKeyboardButton(
                             text="• ʜᴇʟᴘ •",
-                            url="https://t.me/FoundingTitanBot?start=help")
+                            url="https://t.me/Purple_Planet_Manager_Bot?start=help")
                     ]]))
         
                      
@@ -433,11 +433,11 @@ def darling_about_callback(update, context):
                             InlineKeyboardButton(text=gs(chat.id, "owner_button"), url="t.me/xD_Zent"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "network_button"), url="t.me/Sovereign_Network"),
-                            InlineKeyboardButton(text=gs(chat.id, "ot_button"), url="t.me/AckermanXClan"),
+                            InlineKeyboardButton(text=gs(chat.id, "network_button"), url="t.me/purpleplaneteers"),
+                            InlineKeyboardButton(text=gs(chat.id, "ot_button"), url="t.me/purpleplaneteer"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/Foundingtitanbot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/Purple_Planet_Manager_Bot?startgroup=new"),
                         ]
                     ]
                 ),
@@ -480,7 +480,7 @@ def darling_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/AckermanXClan"),
-                        InlineKeyboardButton(text=gs(chat.id, "updates_channel_link_button"), url="https://t.me/FoundingtitanUpdatesx"),
+                        InlineKeyboardButton(text=gs(chat.id, "updates_channel_link_button"), url="https://t.me/purpleplaneteers"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="darling_"),
@@ -497,11 +497,11 @@ def darling_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="✘ Vortex ✘", url="https://t.me/VortexSystemx"),
+                        InlineKeyboardButton(text="✘ Developer ✘", url="https://t.me/clauderis"),
                     ],
                     [
-                        InlineKeyboardButton(text="✘ Updates ✘", url="https://t.me/VortexSystemupdates"),
-                        InlineKeyboardButton(text="✘ Support ✘", url="https://t.me/VortexSystemSupport"),
+                        InlineKeyboardButton(text="✘ Updates ✘", url="https://t.me/purpleplaneteers"),
+                        InlineKeyboardButton(text="✘ Support ✘", url="https://t.me/purpleplaneteer"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="darling_"),
@@ -545,14 +545,14 @@ def Source_about_callback(update, context):
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
-                            InlineKeyboardButton(text=gs(chat.id, "owner_button"), url="t.me/xD_Zent"),
+                            InlineKeyboardButton(text=gs(chat.id, "owner_button"), url="t.me/clauderis"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "network_button"), url="t.me/Sovereign_Network"),
-                            InlineKeyboardButton(text=gs(chat.id, "ot_button"), url="t.me/AckermanXClan"),
+                            InlineKeyboardButton(text=gs(chat.id, "network_button"), url="t.me/purpleplaneteers"),
+                            InlineKeyboardButton(text=gs(chat.id, "ot_button"), url="t.me/purpleplaneteer"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/Foundingtitanbot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/Purple_Planet_Manager_Bot?startgroup=new"),
                         ]
                     ]
                 ),
@@ -840,14 +840,14 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}",              
-                f"""**Yo! Kiddo' [☮︎](https://telegra.ph/file/44d61a5c0844af1f03239.mp4), I Am Finally Alive!**""",
+                f"""**Yo! Kiddo' [☮︎](https://te.legra.ph/file/5e3c7aef33003ba82d358.jpg), I Am Finally Alive!**""",
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
                 [
                   [                  
                        InlineKeyboardButton(
                              text="☮︎ ᴀᴅᴅ ᴍᴇ ☮︎",
-                             url="https://t.me/Foundingtitanbot?startgroup=true")
+                             url="https://t.me/Purple_Planet_Manager_Bot?startgroup=true")
                      ] 
                 ]
             ),
